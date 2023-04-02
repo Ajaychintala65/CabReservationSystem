@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CabReservationSystem.Models.CabDetails>
+
+@{
+    ViewBag.Title = "CabDetails";
+}
+<head>
+    <style type="text/css">
+        .centerImge {
+            border-style: solid;
+            border-width: thin;
+            border-color: #FFFFFF;
+        }
+    </style>
+</head>
+<div style="color: aliceblue;">
+    <h2>AVAILABLE RIDES :</h2>
+</div>
+@foreach (var item in Model)
+{
+    <div class="row centerImge" style="background-color: whitesmoke ">
+        <br />
+        <div class="col-md-4" style="text-align:center">
+            <p>
+                <a><img src=@item.ImagePath width="150" height="100" /></a>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2> @item.VehicleName</h2>
+            <div class="d8eab2cf7f"><hr />@item.Description </div>
+        </div>
+        <div class="col-md-2">
+            @*<button type="button" style="background-color: #d1d0f9" onclick="location.href='@Url.Action("Reserve", "Home", new { HotelId = @row["HOTELSID"], HotelName = @row["HOTELNAME"] })'"><span>Show prices</span></button>*@
+        </div>
+    </div>
+    <br />
+}
+<br />
+<div style="background-color:aliceblue; width:200px">
+    <h5>AVAILABLE RIDES</h5>
+</div>

@@ -128,7 +128,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BookingDetail.cs" />
     <Compile Include="Models\CabDetails.cs" />
+    <Compile Include="Models\CityDetail.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\UserRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -178,6 +180,7 @@
     <Content Include="Views\CabReservation\Registration.cshtml" />
     <Content Include="Views\CabReservation\Index.cshtml" />
     <Content Include="Views\CabReservation\CabDetails.cshtml" />
+    <Content Include="Views\CabReservation\CabBooking.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

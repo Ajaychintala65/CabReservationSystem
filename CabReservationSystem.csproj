@@ -132,10 +132,12 @@
     <Compile Include="Models\CabDetails.cs" />
     <Compile Include="Models\CityDetail.cs" />
     <Compile Include="Models\Login.cs" />
-    <Compile Include="Models\UserRegistration.cs" />
+    <Compile Include="Models\PaymentStatus.cs" />
+    <Compile Include="Models\RegistrationDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\style.css" />
     <Content Include="Images\1520138597727.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -145,12 +147,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Taxi.jpg" />
     <Content Include="Images\Vehicle\ic_auto.png" />
     <Content Include="Images\Vehicle\ic_mini.png" />
     <Content Include="Images\Vehicle\ic_prime.png" />
     <Content Include="Images\Vehicle\ic_suv.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Images\taxi.avif" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -177,10 +181,12 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\CabReservation\Login.cshtml" />
-    <Content Include="Views\CabReservation\Registration.cshtml" />
     <Content Include="Views\CabReservation\Index.cshtml" />
     <Content Include="Views\CabReservation\CabDetails.cshtml" />
     <Content Include="Views\CabReservation\CabBooking.cshtml" />
+    <Content Include="Views\CabReservation\GetBookingList.cshtml" />
+    <Content Include="Views\CabReservation\Payment.cshtml" />
+    <Content Include="Views\CabReservation\Registration.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
